@@ -4,10 +4,12 @@ import "./Layout.css";
 
 const Layout = (props) => {
   return (
-    <div>
+    <div className="layout">
       <Sidebar />
-      {props.children}
-      <Footer />
+      <div className="layout__container">
+        <div className="layout__content">{props.children}</div>
+        <Footer />
+      </div>
     </div>
   );
 };

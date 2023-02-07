@@ -1,7 +1,11 @@
 import "./Footer.css";
 
 const Footer = () => {
-  return <h1>alo</h1>;
+  return (
+    <footer class="footer">
+      <p>Copyright &copy; 2021</p>
+    </footer>
+  );
 };
 
 export default Footer;

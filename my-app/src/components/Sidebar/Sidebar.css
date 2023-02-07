@@ -1,0 +1,28 @@
+.sidebar {
+    background-color: var(--sidebar-background-color);
+    color: #fff;
+    padding: 1rem;
+    width: 150px;
+    height: 100%;
+    padding: 0;
+}
+
+.sidebar__item {
+    height: 44px;
+    padding: 14px 16px;
+    color: var(--text-colorA);
+    user-select: none;
+    border-bottom: 1px solid var(--border-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+}
+
+.sidebar__item:hover {
+    color: var(--text-color-active);
+    background-color: var(--border-color);
+}
+
+.sidebar__item.sidebar__item--active {
+    color: var(--text-color-active)
+}
