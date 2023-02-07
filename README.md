@@ -1,4 +1,6 @@
-##Link Deploy Demo: https://tienshake.github.io/Intern-Front-end-Test-NCC/
+# Welcome to my app:
+
+## Link Deploy Demo: https://tienshake.github.io/Intern-Front-end-Test-NCC/
 
 In the project directory, you can run:
 
