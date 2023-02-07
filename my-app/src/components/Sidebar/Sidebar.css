@@ -30,7 +30,14 @@
 @media (max-width: 576px) {
     .sidebar {
         width: 100%;
+
     }
 
+}
 
+/* For tablets */
+@media (min-width: 576px) and (max-width: 768px) {
+    .sidebar {
+        height: 100%;
+    }
 }
