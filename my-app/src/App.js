@@ -4,9 +4,11 @@ import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <Layout>
-      <Home />
-    </Layout>
+    <div className="app">
+      <Layout>
+        <Home />
+      </Layout>
+    </div>
   );
 }
 

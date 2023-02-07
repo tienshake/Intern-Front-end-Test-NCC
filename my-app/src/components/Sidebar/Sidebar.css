@@ -3,7 +3,6 @@
     color: #fff;
     padding: 1rem;
     width: 150px;
-    height: 100%;
     padding: 0;
 }
 
@@ -25,4 +24,13 @@
 
 .sidebar__item.sidebar__item--active {
     color: var(--text-color-active)
+}
+
+/* For phones */
+@media (max-width: 576px) {
+    .sidebar {
+        width: 100%;
+    }
+
+
 }

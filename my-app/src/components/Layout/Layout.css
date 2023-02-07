@@ -1,6 +1,6 @@
 .layout {
-    height: 100vh;
     display: flex;
+    height: 100vh;
 }
 
 .layout__container {
@@ -11,4 +11,12 @@
 
 .layout__content {
     flex: 1;
+}
+
+/* For phones */
+@media (max-width: 576px) {
+    .layout {
+        display: flex;
+        flex-direction: column;
+    }
 }

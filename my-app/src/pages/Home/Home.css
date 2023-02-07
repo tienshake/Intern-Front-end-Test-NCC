@@ -41,7 +41,6 @@
 
 .home__slide {
     display: flex;
-    justify-content: space-between;
     gap: 50px;
     padding-top: 40px;
 }
@@ -66,4 +65,40 @@
 .floated {
     float: left;
     width: 150px;
+}
+
+
+
+
+/* For PCs */
+@media (max-width: 1200px) {
+    .home__content {
+        padding: 38px 20px;
+    }
+}
+
+
+/* For tablets */
+@media (min-width: 576px) and (max-width: 768px) {
+    .home__slide {
+        display: flex;
+        gap: 50px;
+        padding-top: 40px;
+        flex-direction: column;
+    }
+
+}
+
+/* For phones */
+@media (max-width: 576px) {
+    .home {
+        padding: 20px 30px;
+    }
+
+    .home__slide {
+        display: flex;
+        gap: 50px;
+        padding-top: 40px;
+        flex-direction: column;
+    }
 }
