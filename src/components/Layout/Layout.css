@@ -1,6 +1,6 @@
 .layout {
     display: flex;
-    height: 100vh;
+    height: auto;
 }
 
 .layout__container {
@@ -11,6 +11,7 @@
 
 .layout__content {
     flex: 1;
+    margin-bottom: 142px;
 }
 
 /* For phones */
@@ -18,5 +19,13 @@
     .layout {
         display: flex;
         flex-direction: column;
+    }
+}
+
+
+/* For PCs */
+@media (max-width: 1200px) {
+    .layout {
+        height: auto;
     }
 }
